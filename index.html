@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanStan | Monthly Planner</title>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <!--bootstrap and custom css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <!--begin .navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">PlanStan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Plans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end .navbar-->
+
+    <!--begin .hero-->
+    <div class="hero">
+        <div class="text-block">
+            <h1>Monthly Planner</h1>
+        </div>
+    </div>
+    <!--end .hero-->
+
+    <!--begin .container-->
+    <div class="container">
+
+        <!--begin .tasks-->
+        <div class="tasks">
+            <button id="sortBtn" class="btn btn-primary mb-3 ms-3" type="submit">Sort</button>
+
+            <div class="results row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+            </div>
+        </div>
+        <!--end .tasks-->
+
+    </div>
+    <!--end .container-->
+
+    <!--begin .footer-->
+    <div class="footer bg-dark">
+        <div class="footerContent">
+
+            <img src="img/facebook.png"><img src="img/linkedin.png"><img src="img/instagram.png"><img
+                src="img/youtube.png">
+            <h2>Sign up for our newsletter!</h2>
+            <br>
+            <input type="email" class="form-control form-control-lg" id="colFormLabelLg"
+                placeholder="johndoe@email.com">
+            <br>
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+            <br><br>
+            <small class="text-muted">Created by Joshua Powell</small>
+            <small class="text-muted">&copy; 2022</small>
+        </div>
+    </div>
+    <!--end .footer-->
+
+    <script src="js/data.json"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

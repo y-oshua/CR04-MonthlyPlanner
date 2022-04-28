@@ -1,0 +1,56 @@
+tasks = `[
+    {
+        "taskName": "See new Lynch film",
+        "taskDesc": "Let's hope this Twin Peaks prequel still features whats-his-face.",
+        "taskImg": "img/film.jpg",
+        "taskPriority": 0
+    },
+    {
+        "taskName": "Go to Moondog concert",
+        "taskDesc": "He's dead but I can't wait to see Moondog at the Great Venue in the sky.",
+        "taskImg": "img/concert.jpg",
+        "taskPriority": 0
+    },
+    {
+        "taskName": "Buy groceries for Mexican night",
+        "taskDesc": "Helen said her guac was better than mine, I'll show her.",
+        "taskImg": "img/shop.jpg",
+        "taskPriority": 0
+    },
+    {
+        "taskName": "Blitz Chess Tournament",
+        "taskDesc": "5 minutes + 3 sec increments. First 3 places get payout!",
+        "taskImg": "img/chess.jpg",
+        "taskPriority": 0
+    },
+    {
+        "taskName": "Walk my dumb dog",
+        "taskDesc": "Contemplating leaving him at the dog park, perhaps it'll be best for both of us.",
+        "taskImg": "img/dog.jpg",
+        "taskPriority": 0
+    },
+    {
+        "taskName": "Go to gym",
+        "taskDesc": "You can do it, dude. Or maybe you can't, what do I know.",
+        "taskImg": "img/gym.jpg",
+        "taskPriority": 0
+    },
+    {
+        "taskName": "Brew ginger beer",
+        "taskDesc": "Make a new batch of ginger beer, this time double the amount of fresh ginger!",
+        "taskImg": "img/brew.jpg",
+        "taskPriority": 0
+    },
+    {
+        "taskName": "Zoom call parents",
+        "taskDesc": "We knew we would have to do this again one day, just get it done with.",
+        "taskImg": "img/zoom.jpg",
+        "taskPriority": 0
+    },
+    {
+        "taskName": "Get drunk with asshole friends",
+        "taskDesc": "I hate my friends, but I hate them slightly less when we're drunk.",
+        "taskImg": "img/drink.jpg",
+        "taskPriority": 0
+    }
+]`

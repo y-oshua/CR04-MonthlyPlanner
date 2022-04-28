@@ -1,0 +1,85 @@
+.hero, .navbar   {
+    font-family: 'Rowdies', cursive;
+}
+
+.hero {
+    height: 70vh;
+    width: 100%;
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 50%;
+    margin-bottom: 2rem;;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.text-block {
+    /* absolute position on the background text, relative position on container .hero*/
+    position: absolute;
+    top: 40%;
+    /* since width of text-block is 40% (below), we have 30% available on either side*/
+    left:30%;
+    /* backup background color */
+    background: black;
+    /* black background with 0.5 opacity */
+    background: rgba(0, 0, 0, 0.5);     
+    color: white;  
+    width: 40%;
+    /* when screen is smaller, text-block will still contain text*/
+    min-width:15rem;
+    padding: .75rem;
+    text-align: center;
+}
+
+.card   {
+    height:50vh;
+    /* when screen is smaller, card will still contain text*/
+    min-height: 35rem;
+}
+
+.card-img-top {
+    height: 50%;
+    object-fit: cover;
+}
+
+.card h5    {
+    text-align: center;
+}
+
+.prioritySpan    {
+    font-size: 1.5rem;
+    padding:.5rem 1rem .5rem 1rem;
+    background-color: #5cb85c;
+    
+}
+
+.cardButtons    {
+    position:absolute;
+    bottom:6%;
+    left:7%;  
+}
+
+.cardButtons .btn   {
+    margin: 0 0rem 0 0rem;
+}
+
+.footer {
+    color:white;
+    width:100%;
+    padding:1.5rem;
+}
+
+.footerContent  {
+    margin:auto;
+    width:60%;
+    text-align:center;
+}
+
+.footer img{
+    width:2rem;
+    height:auto;
+    margin: 0 1rem 1rem 1rem;
+}
